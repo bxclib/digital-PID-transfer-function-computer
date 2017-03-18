@@ -20,5 +20,12 @@ print ("psim parameters")
 print ("gain",k/w1)
 print ("T",1/w1)
 print ("f",w2/6.28)
+print ("Tp",1/w2)
+print ("matlab bode num")
+num=[P*k/w1/w1,P*k/w1]
+print (num)
+print ("matlab bode den")
+den=[1/w1/w2,1/w1,0,0]
+print (den)
 
 
